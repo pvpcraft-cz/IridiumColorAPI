@@ -2,15 +2,15 @@
 
 ```xml
 <repository>
-    <id>iridiumdevelopment</id>
-    <url>https://nexus.iridiumdevelopment.net/repository/maven-releases/</url>
+    <id>pvpcraft-cz</id>
+    <url>https://repo.pvpcraft.cz/releases/</url>
 </repository>
 ```
 ```xml
 <dependency>
     <groupId>com.iridium</groupId>
     <artifactId>IridiumColorAPI</artifactId>
-    <version>LATEST</version>
+    <version>1.0.7</version>
 </dependency>
 ```
 # Usage
