@@ -24,6 +24,16 @@ publishing {
     publications.create<MavenPublication>("maven") {
         from(components["java"])
     }
+
+    repositories {
+        maven {
+            url = uri("https://repo.pvpcraft.cz/releases/")
+            credentials {
+                username = "xxxxxxxxxxxxxxxxxxxxxx"
+                password = "xxxxxxxxxxxxxxxxxxxxxx"
+            }
+        }
+    }
 }
 
 tasks {
