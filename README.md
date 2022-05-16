@@ -1,5 +1,9 @@
 # IridiumColorAPI
 
+## Stats
+![Alt](https://repobeats.axiom.co/api/embed/1e9723a16ee4aa1a20de14ab7cf82c6700a2562b.svg "Repobeats analytics image")
+
+## Maven repo & dependency
 ```xml
 <repository>
     <id>pvpcraft-cz</id>
@@ -13,7 +17,7 @@
     <version>1.0.7</version>
 </dependency>
 ```
-# Usage
+## Usage
 To add a gradient simply use the <GRADIENT> tags
 ```java
 IridiumColorAPI.process("<GRADIENT:2C08BA>Cool string with a gradient</GRADIENT:028A97>");
